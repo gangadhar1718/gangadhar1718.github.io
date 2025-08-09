@@ -1,58 +1,89 @@
+```json
 {
   "features": {
     "about": true,
     "projects": true,
     "experience": true,
     "skills": true,
-    "github_projects": true
+    "github_projects": false
   },
   "site": {
-    "title": "gangadhar1718",
-    "description": "Developer Portfolio",
+    "title": "Gangadhar Shebannavar",
+    "description": "Cloud & Infra Engineer Portfolio",
     "seo": {
-      "title": "gangadhar1718 - Developer Portfolio",
-      "description": "Developer Portfolio of gangadhar1718",
-      "keywords": "developer, portfolio, github",
-      "author": "gangadhar1718",
-      "og_image": "https://avatars.githubusercontent.com/gangadhar1718",
+      "title": "Gangadhar Shebannavar - Cloud & Infra Engineer Portfolio",
+      "description": "Portfolio of Gangadhar Shebannavar - AWS Cloud & Infra Engineer at LTIMindtree, expert in AWS, monitoring, and automation.",
+      "keywords": "aws, cloud engineer, infrastructure, devops, portfolio",
+      "author": "Gangadhar Shebannavar",
+      "og_image": "",
       "twitter_card": "summary_large_image",
-      "base_url": "https://gangadhar1718.github.io"
+      "base_url": ""
     }
   },
+  "name": "Gangadhar Shebannavar",
   "header": {
-    "greeting": "gangadhar1718",
-    "tagline": "Developer and Creator."
+    "greeting": "Gangadhar Shebannavar",
+    "tagline": "AWS Cloud & Infra Engineer | Automation | Uptime | Cloud Security"
   },
   "social_links": [
     {
-      "name": "GitHub",
-      "url": "https://github.com/gangadhar1718",
-      "icon": "github",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/gangadhar-shebannavar",
+      "icon": "linkedin",
       "required": true
+    },
+    {
+      "name": "Email",
+      "url": "mailto:gangadhar.shebannavar@gmail.com",
+      "icon": "mail"
     }
   ],
-  "github_username": "gangadhar1718",
+  "github_username": "",
   "about": {
     "paragraphs": [
-      "Welcome to my portfolio! I'm passionate about creating amazing digital experiences and solving complex problems through code.",
-      "This portfolio showcases my journey, projects, and skills. Feel free to explore and get in touch if you'd like to collaborate!"
+      "AWS Cloud & Infra Engineer with 2+ years of experience in managing cloud infrastructure, IAM, monitoring, and incident response. Passionate about designing scalable solutions, ensuring cloud security, and delivering reliable infrastructure.",
+      "Currently working at LTIMindtree in Bengaluru, focusing on AWS services (EC2, S3, VPC, IAM), availability, and automation. Proven track record in reducing manual effort, improving alerts, and maintaining high uptimes for enterprise environments."
     ]
   },
   "projects": {
-    "title": "Featured Projects",
+    "title": "Key Projects",
     "items": [
       {
-        "name": "Portfolio Website",
-        "date": "August 9, 2025",
+        "name": "Static Website Deployment using Amazon S3",
+        "date": "2023",
         "description": [
-          "A modern, responsive portfolio website built with vanilla JavaScript",
-          "Features dark/light mode, dynamic content loading, and GitHub integration",
-          "Fully configurable through JSON with automated README generation"
+          "Built a highly available and cost-efficient static website using Amazon S3.",
+          "Configured hosting with HTTPS, versioning, cross-region replication, and lifecycle policies.",
+          "Achieved 99.9% uptime and reduced storage costs by 35% through automation."
         ],
-        "picture": "assets/projects/Placeholder.png",
         "link": {
-          "url": "https://gangadhar1718.github.io",
-          "title": "View Live Site"
+          "url": "https://medium.com/@gangadhar.shebannavar/create-a-static-website-by-using-amazon-s3-153571cb1e53",
+          "title": "Read full project"
+        }
+      },
+      {
+        "name": "AWS Resource Automation with Terraform",
+        "date": "2023",
+        "description": [
+          "Automated repeatable infrastructure setups for IAM users, EC2 instances, and S3 buckets.",
+          "Used Terraform templates to cut deployment time from 45 minutes to 10 minutes.",
+          "Reduced manual errors by 80%."
+        ],
+        "link": {
+          "url": "https://medium.com/@gangadhar.shebannavar/create-an-iam-user-an-ec2-instance-and-an-s3-bucket-using-terraform-350ddc6e721f",
+          "title": "Read full project"
+        }
+      },
+      {
+        "name": "VPC Monitoring with Flow Logs",
+        "date": "2024",
+        "description": [
+          "Enabled VPC Flow Logs and analyzed network traffic using CloudWatch Logs Insights.",
+          "Enhanced proactive threat detection; reduced networking issue resolution time by 60%."
+        ],
+        "link": {
+          "url": "https://docs.google.com/document/d/1uAk-_ACpaixAImPwr7P-21wDMnLWk4on6W62IbQJRPs/edit?usp=sharing",
+          "title": "Read full project"
         }
       }
     ]
@@ -61,17 +92,18 @@
     "title": "Professional Experience",
     "jobs": [
       {
-        "company": "Your Company Name",
-        "role": "Your Job Title",
-        "date": "Start Date - Present",
+        "company": "LTIMindtree Ltd",
+        "role": "Cloud & Infrastructure Engineer",
+        "date": "Mar 2022 - Present",
         "responsibilities": [
-          "Add your key responsibilities and achievements here",
-          "Include specific technologies you worked with",
-          "Mention any notable projects or impact metrics",
-          "Update this section with your actual work experience"
-        ],
-        "logo": "assets/logos/Placeholder_Logo.png",
-        "logo_dark": "assets/logos/Placeholder_Logo.png"
+          "Managed AWS (EC2, S3, VPC, IAM) for stability, access, and availability in enterprise settings.",
+          "Configured Route 53 DNS for high-uptime internal and client services.",
+          "Optimized Datadog, Dynatrace, Opsgenie alerts—reduced false positives by 25%.",
+          "Provisioned and managed IAM roles and policy-based access.",
+          "Improved incident handling through better documentation and audit-ready practices.",
+          "Supported Linux/Windows EC2 instances; handled patching, troubleshooting, performance checks.",
+          "Up-to-date with AWS advancements and cloud security."
+        ]
       }
     ]
   },
@@ -79,42 +111,70 @@
     "title": "Skills & Technologies",
     "categories": [
       {
-        "name": "Programming Languages & Technologies",
+        "name": "Cloud Platform",
         "items": [
-          "JavaScript",
-          "Python",
-          "Java",
-          "TypeScript"
+          "AWS (EC2, VPC, IAM, Route 53, S3)"
         ]
       },
       {
-        "name": "Tools & Platforms",
+        "name": "Monitoring & Alerting",
+        "items": [
+          "Datadog",
+          "Dynatrace",
+          "Opsgenie"
+        ]
+      },
+      {
+        "name": "Operating Systems",
+        "items": [
+          "Linux (Amazon, Ubuntu)",
+          "Windows Server"
+        ]
+      },
+      {
+        "name": "DevOps Tools",
         "items": [
           "Git",
-          "GitHub",
-          "VS Code",
-          "Docker"
+          "Terraform",
+          "Docker (basic exposure)"
+        ]
+      },
+      {
+        "name": "Incident Management",
+        "items": [
+          "Jira",
+          "ServiceNow"
         ]
       },
       {
         "name": "Certifications",
         "items": [
           {
-            "name": "Add your certification name here",
-            "url": "https://example.com/your-certification-link"
+            "name": "AWS Foundational and Architecting Course - Ethnus"
           },
-          "You can also add certifications without links"
+          {
+            "name": "AWS Academy Cloud Foundations (Cloud Quest: Cloud Practitioner)"
+          }
+        ]
+      },
+      {
+        "name": "Awards",
+        "items": [
+          "Quizathon Winner, India Region",
+          "Best Performer of the Year, LTIMindtree, 2024",
+          "Super Crew Award, LTIMindtree, 2025"
         ]
       }
     ]
   },
   "github_projects": {
-    "title": "Projects on GitHub"
+    "title": ""
   },
   "footer": {
     "show_social_links": true,
     "show_built_with": true,
     "built_with_text": "Built with ❤️ using vanilla JavaScript",
-    "tagline": "Let's connect and build something amazing together!"
+    "tagline": "Let's connect and build robust cloud solutions together!"
   }
 }
+```
