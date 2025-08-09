@@ -35,7 +35,7 @@ The live portfolio includes detailed professional experience, technical skills a
 
 Let's connect and build robust cloud solutions together!
 
-- 🌐 **Portfolio**:https://gangadhar1718.github.io
+- 🌐 **Portfolio**: https://gangadhar1718.github.io
 - 💻 **GitHub**: https://github.com/gangadhar1718
 - 🔗 **LinkedIn**: [https://www.linkedin.com/in/gangadhar-shebannavar](https://www.linkedin.com/in/gangadhar-shebannavar)
 
