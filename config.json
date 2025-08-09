@@ -1,4 +1,3 @@
-```json
 {
   "features": {
     "about": true,
@@ -38,7 +37,7 @@
       "icon": "mail"
     }
   ],
-  "github_username": "",
+  "github_username": "gangadhar1718",
   "about": {
     "paragraphs": [
       "AWS Cloud & Infra Engineer with 2+ years of experience in managing cloud infrastructure, IAM, monitoring, and incident response. Passionate about designing scalable solutions, ensuring cloud security, and delivering reliable infrastructure.",
@@ -149,12 +148,8 @@
       {
         "name": "Certifications",
         "items": [
-          {
-            "name": "AWS Foundational and Architecting Course - Ethnus"
-          },
-          {
-            "name": "AWS Academy Cloud Foundations (Cloud Quest: Cloud Practitioner)"
-          }
+          "AWS Foundational and Architecting Course - Ethnus",
+          "AWS Academy Cloud Foundations (Cloud Quest: Cloud Practitioner)"
         ]
       },
       {
@@ -168,7 +163,7 @@
     ]
   },
   "github_projects": {
-    "title": ""
+    "title": "GitHub Projects"
   },
   "footer": {
     "show_social_links": true,
@@ -177,4 +172,3 @@
     "tagline": "Let's connect and build robust cloud solutions together!"
   }
 }
-```
